@@ -1,0 +1,26 @@
+.flex-container {
+	display: flex;
+	background-color: rgba(0,0,0,0.1);
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.flex-item {
+	width: 120px;
+	text-align: center;
+	height: 50px;
+	background-color: red;
+}
+
+.item-1 {
+	height: 30px;
+}
+
+.item-2 {
+	height: 20px;
+}
+
+.item-3 {
+	flex-basis: 30%;
+	height: 60px;
+}

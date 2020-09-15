@@ -1,0 +1,22 @@
+body {
+	font-family: Ariel, sans-serif;
+}
+
+.header {
+	margin-top: 140px;
+	margin-bottom: 130px;
+	text-transform: uppercase;
+	text-align: center;
+	font-style: 36px;
+	color: #333333;
+}
+
+.row {
+	text-align: center;
+}
+
+.col {
+	/*display: inline-block;*/
+	text-align: center;
+}
+

@@ -1,0 +1,23 @@
+h3, h4, h5, h6 {
+	text-align: center;
+}
+
+.ghir {
+	font-weight: bold;
+}
+
+.procherk {
+	text-decoration: line-through;
+}
+
+.italio {
+	font-style: italic;
+}
+
+.np{
+	text-decoration: underline;
+}
+
+p {
+	background-color: rgba(255, 255, 0, .6);
+}

@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+.header {
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	background-color: #000;
+	display: inline-block;
+}
+
+.header-links {
+	color: #fff;
+}
