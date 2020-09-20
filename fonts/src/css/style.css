@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), 
+    url('../fonts/opensans.woff2') format('woff2'), 
+    url('../fonts/opensans.woff') format('woff'), 
+    url('../fonts/opensans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Bold'), local('BebasNeueBold'), 
+    url('../fonts/bebasneuebold.woff2') format('woff2'), 
+    url('../fonts/bebasneuebold.woff') format('woff'), 
+    url('../fonts/bebasneuebold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Bold'), local('Lato-Bold'), 
+    url('../fonts/latobold.woff2') format('woff2'), 
+    url('../fonts/latobold.woff') format('woff'), 
+    url('../fonts/latobold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: local('Lobster'), 
+    url('../fonts/lobster.woff2') format('woff2'), 
+    url('../fonts/lobster.woff') format('woff'), 
+    url('../fonts/lobster.ttf') format('truetype');
+}
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bebas {
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.lobster {
+	font-family: 'Lobster', sans-serif;
+}
