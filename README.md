@@ -19,3 +19,4 @@
 
 [Урок 10](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/hwlesson10/src "Описание") - less и как его едят?
 
+[Урок 15](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/задание%2015) - Псевдоклассы и псевдоэлементы.
