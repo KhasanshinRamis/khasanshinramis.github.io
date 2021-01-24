@@ -22,3 +22,5 @@
 [Урок 20](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/задание%2015) - Псевдоклассы и псевдоэлементы.
 
 [Урок 21](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/project) - Модуль 5. Практика. Часть 3.
+
+[Урок 22](https://github.com/KhasanshinRamis/khasanshinramis.github.io/commit/7e6dfc54d8a79bbe1a0568a3630b9d205ffdd76b) - Слайдер на сайте.
