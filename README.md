@@ -20,4 +20,4 @@
 [Урок 10](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/hwlesson10/src "Описание") - less и как его едят?
 
 [Урок 15](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/задание%2015) - Псевдоклассы и псевдоэлементы.
-[Урок 15](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/задание%2015) - Модуль 5. Практика. Часть 3.
+[Урок 15](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/project) - Модуль 5. Практика. Часть 3.
