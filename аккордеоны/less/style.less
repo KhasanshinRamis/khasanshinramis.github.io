@@ -1,0 +1,73 @@
+/*Подключение шрифтов*/
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Regular.eot');
+    src: local('../fonts/Ubuntu Regular'), local('Ubuntu-Regular'),
+        url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Regular.woff') format('woff'),
+        url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Bold.eot');
+    src: local('../fonts/Ubuntu Bold'), local('Ubuntu-Bold'),
+        url('../fonts/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Bold.woff') format('woff'),
+        url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*Базовые цвета*/
+@header: #0bbaf0;
+@text: #535353;
+
+
+.reg() {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.bold() {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+	.reg();
+	background: url(../img/bg.png) center center no-repeat;
+}
+
+h1 {
+	margin-top: 8rem;
+	text-align: center;
+	font-size: 3.6rem;
+	color: @header;
+}
+
+h2 {
+	margin-top: 1rem;
+	color: @header;
+	font-size: 2.4rem;
+	text-align: center;
+}
+
+.panel-group {
+	margin-top: 3.5rem;
+}
+
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 2.4rem;
+}
+
+.panel-group .panel-heading{
+	background-color: @header;
+}
+
+.panel-body {
+	color: @text;
+	font-size: 2rem;
+}
