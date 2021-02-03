@@ -31,3 +31,8 @@
 
 [Урок 25](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/Кнопка%20получить%20консультацию) -Верстка всплывающих окон на сайте.
 
+[Урок 26](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/аккордеоны) -Аккордеон.
+
+[Урок 26](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/Форма%20с%20табами) -Табы.
+
+
