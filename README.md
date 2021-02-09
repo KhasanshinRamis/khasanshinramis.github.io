@@ -35,6 +35,6 @@
 
 [Урок 26](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/Форма%20с%20табами) -Табы.
 
-[Урок 27](khasanshinramis.github.io/Верстка блока с ценами/index.html) -Верстка блока с ценами.
+[Урок 27](https://github.com/KhasanshinRamis/khasanshinramis.github.io/Верстка блока с ценами/index.html) -Верстка блока с ценами.
 
 
