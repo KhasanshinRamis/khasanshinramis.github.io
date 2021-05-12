@@ -1,6 +1,8 @@
 # Хасаншин Рамис
 Мои домашние задания
 
+[ПРОЕКТНАЯ РАБОТА](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/ИГРА "ИГРА-РЕЛАКС")
+
 [Урок 2](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/Урок%202 "Описание")
 
 [Урок 3](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/Урок%203/myfirstproject/src "Описание")
