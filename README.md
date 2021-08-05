@@ -39,4 +39,7 @@
 
 [Урок 27](https://khasanshinramis.github.io/Верстка%20блока%20с%20ценами/index.html) -Верстка блока с ценами.
 
+[Урок 28](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Форма%20регистрации%20с%20анимацией/scr/index.html) -Анимация на CSS3.
+
+
 
