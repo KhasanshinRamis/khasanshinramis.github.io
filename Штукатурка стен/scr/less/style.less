@@ -418,15 +418,26 @@ section {
 			margin: auto;
 		}
 	}
-	.hand {
+}
+
+.hand {
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		max-width: 30rem;
-	}
 }
 
-
+.scheme {
+	background: #fff url(../img/scheme/scheme-bg.png) bottom -10rem right -15rem no-repeat;
+	background-size: 65rem;
+	&-block {
+		min-height: 30rem;
+	}
+	h3 {
+		font-size: 2rem;
+		.bold();
+	}
+}
 
 /* Оформление модальных окон */
 .popup {
@@ -471,6 +482,41 @@ section {
 	}
 }
 
+.all-inclusive {
+	background: @bg-light;
+	.media {
+		min-height: 14rem;
+		h4 {
+			margin-bottom: 0;
+			.bold();
+			font-size: 1.6rem;
+		}
+	margin-top: 0;
+	font-size: 1.3rem;
+	}
+}
+
+/* Всё на 100% включено */
+.circle {
+	display: inline-block;
+	background-color: @icons-color;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	&-border {
+		padding: 0.3rem;
+		display: inline-block;
+		width: 5rem;
+		height: 5rem;
+		border: 2px solid @icons-color;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 4rem;
+		color: @light;
+		.bold();
+		font-size: 1.9rem;
+	}
+}
 
 @media (max-width: 1199px) {
 	.feedback {
@@ -523,6 +569,9 @@ section {
  	.hand {
  		display: none;
  	}
+ 	.scheme {
+ 		background-size: 35rem;
+ 	}
 }
 
 @media (max-width: 767px) {
@@ -546,11 +595,20 @@ section {
 		}
 	}
 	.feedback {
+		width: 100%;
+		text-align: center;
 		&-prev-btn {
 			left: 0;
 		}
 		&-next-btn {
 			right: 0;
+		}
+	}
+	.scheme {
+		background: none;
+		text-align: center;
+		&-block {
+			min-height: 22rem;	
 		}
 	}
 }
