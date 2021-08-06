@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.section {
+	min-height: 100vh;
+	display: table;
+	width: 100%;
+	text-align: center;
+}
+
+.wrap-block {
+	display: table-cell;
+	vertical-align: middle;
+	color: lightblue;
+}
