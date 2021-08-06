@@ -46,3 +46,5 @@
 [Урок 30](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Дз%20по%20видео-фону/src/index.html) -Видео-фон на сайте.
 
 [Урок 31](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Штукатурка%20стен/scr/index.html) -Доверстали блок с отзывами.
+
+[Урок 33](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Штукатурка%20стен/scr/index.html) -Верстаем схему работы и все включено.
