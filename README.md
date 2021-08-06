@@ -41,5 +41,4 @@
 
 [Урок 28](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Форма%20регистрации%20с%20анимацией/scr/index.html) -Анимация на CSS3.
 
-
-
+[Урок 29](https://github.com/khasanshinramis.github.io/Штукатурка стен/scr/index.html) -Верстка блока с отзывами.
