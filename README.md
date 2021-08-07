@@ -48,3 +48,6 @@
 [Урок 31](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Штукатурка%20стен/scr/index.html) -Доверстали блок с отзывами.
 
 [Урок 33](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Штукатурка%20стен/scr/index.html) -Верстаем схему работы и все включено.
+
+[Урок 34](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Дз%20по%20гео-картам/src) -Гео-карты для сайта.
+
