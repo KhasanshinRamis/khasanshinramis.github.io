@@ -51,3 +51,5 @@
 
 [Урок 34](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Дз%20по%20гео-картам/src) -Гео-карты для сайта.
 
+[Урок 35](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/Штукатурка%20стен/scr) -Верстаем блок "Развеиваем сомнения".
+
