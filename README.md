@@ -3,7 +3,7 @@
 
 [Аккордеон](https://khasanshinramis.github.io/аккордеоны/) - "Ответы на вопросы" с аккордеоном.
 
-[Табы](khasanshinramis.github.io/form_with_animation/scr/) - "Форма регистрации" с табами и анимацией.
+[Табы](https://khasanshinramis.github.io/form_with_animation/scr/) - "Форма регистрации" с табами и анимацией.
 
 [Урок 27](https://khasanshinramis.github.io/Верстка%20блока%20с%20ценами/index.html) -Верстка блока с ценами.
 
