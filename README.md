@@ -5,7 +5,7 @@
 
 [Табы](https://khasanshinramis.github.io/form_with_animation/scr/) - "Форма регистрации" с табами и анимацией.
 
-[Урок 27](https://khasanshinramis.github.io/Верстка%20блока%20с%20ценами/index.html) -Верстка блока с ценами.
+[Фон в квадрате](https://khasanshinramis.github.io/background_with_text/src/) -Красивый сайт с фоном и текстом.
 
 [Урок 28](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Форма%20регистрации%20с%20анимацией/scr/index.html) -Анимация на CSS3.
 
