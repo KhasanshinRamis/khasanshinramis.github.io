@@ -7,7 +7,7 @@
 
 [Фон в квадрате](https://khasanshinramis.github.io/background_with_text/src/) -Красивый сайт с фоном и текстом.
 
-[Урок 28](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Форма%20регистрации%20с%20анимацией/scr/index.html) -Анимация на CSS3.
+[Адаптив по формам](https://khasanshinramis.github.io/adaptive_forms/scr/) -Адаптивный сайт "Форма регистрации" - создание аккаунта.
 
 [Урок 29](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Штукатурка%20стен/scr/index.html) -Верстка блока с отзывами.
 
