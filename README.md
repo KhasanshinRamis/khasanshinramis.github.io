@@ -1,5 +1,5 @@
 # Хасаншин Рамис
-Мои домашние задания
+Здесь выполненные мои домашние работы по курсам [Курс Веб-разработчик 10.0 от Glo Academy](https://www.youtube.com/playlist?list=PL3LQJkGQtzc5G7wIQfVqBMEprmTKZIaXf)
 
 [ПРОЕКТНАЯ РАБОТА](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/ИГРА "ИГРА-РЕЛАКС")
 
