@@ -1,4 +1,5 @@
 # Хасаншин Рамис
+
 Здесь выполненные мною домашние работы по курсам [Курс Веб-разработчик 10.0 от Glo Academy](https://www.youtube.com/playlist?list=PL3LQJkGQtzc5G7wIQfVqBMEprmTKZIaXf), [БЕСПЛАТНЫЙ курс по верстке сайтов (Front End). Уроки HTML CSS JS // Фрилансер по жизни](https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr)
 
 [Аккордеон](https://khasanshinramis.github.io/аккордеоны/) - "Ответы на вопросы" с аккордеоном.
@@ -9,7 +10,7 @@
 
 [Адаптив по формам](https://khasanshinramis.github.io/adaptive_forms/scr/) -Адаптивный сайт "Форма регистрации" - создание аккаунта.
 
-[Урок 29](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Штукатурка%20стен/scr/index.html) -Верстка блока с отзывами.
+[Подключение шрифтов](https://khasanshinramis.github.io/fonts/src/) - Сайт с подбором шрифтов.
 
 [Урок 30](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/Дз%20по%20видео-фону/src/index.html) -Видео-фон на сайте.
 
