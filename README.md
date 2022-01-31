@@ -1,9 +1,9 @@
 # Хасаншин Рамис
 Здесь выполненные мною домашние работы по курсам [Курс Веб-разработчик 10.0 от Glo Academy](https://www.youtube.com/playlist?list=PL3LQJkGQtzc5G7wIQfVqBMEprmTKZIaXf), [БЕСПЛАТНЫЙ курс по верстке сайтов (Front End). Уроки HTML CSS JS // Фрилансер по жизни](https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr)
 
-[Аккордеон](https://khasanshinramis.github.io/аккордеоны/) -Сайт "Ответы на вопросы" созданный с помощью аккордеона.
+[Аккордеон](https://khasanshinramis.github.io/аккордеоны/) - "Ответы на вопросы" с аккордеоном.
 
-[Урок 26](https://github.com/KhasanshinRamis/khasanshinramis.github.io/tree/master/Форма%20с%20табами) -Табы.
+[Табы](khasanshinramis.github.io/form_with_animation/scr/) - "Форма регистрации" с табами и анимацией.
 
 [Урок 27](https://khasanshinramis.github.io/Верстка%20блока%20с%20ценами/index.html) -Верстка блока с ценами.
 
