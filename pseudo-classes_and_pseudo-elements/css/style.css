@@ -1,0 +1,96 @@
+.list {
+ margin-top: 2rem;
+}
+.list li {
+ list-style-type: none;
+ padding-left: 35px;
+ font-size: 20px;
+ line-height: 1.6;
+ color: #273d46;
+}
+
+.list li:before {
+ content: url("../img/check.png");
+ width: 25px;
+ height: 19px;
+}
+
+.list li:nth-child(1):hover,
+.list li:nth-child(2):hover,
+.list li:nth-child(3):hover,
+.list li:nth-child(4):hover{
+ text-decoration: none;
+ font-weight: 400;
+ font-style: normal;
+ text-transform: none;
+ }
+
+.list li:nth-child(1) {
+ text-decoration: line-through;
+}
+
+.list li:nth-child(2):hover {
+ color: #d55a5a;
+ background: url(../img/check_hover.png) left no-repeat;
+}
+
+
+
+.list li:nth-child(2) {
+ font-weight: 900;
+ }
+
+.list li:nth-child(3) {
+ font-style: italic;
+ }
+
+.list li:nth-child(4) {
+ text-transform: uppercase;
+ }
+
+.text-intput:focus {
+ outline: none;
+ border-radius: none;
+ box-shadow: 0px 0px 3px rgba(0, 0, 0, .6);
+}
+
+
+.text-intput {
+ margin-top: 2rem;
+ width: 15rem;
+ height: 2rem;
+}
+
+
+.btn:hover {
+ background-color: #3a5856;
+}
+
+.btn:focus {
+ background-color: #818181;
+}
+
+
+.btn {
+ display: block;
+ margin-top: 2rem;
+ padding: 16px 30px;
+ border: none;
+ border-radius: 30px;
+ background-color: #80b7b3;
+ font-size: 14px;
+ color: #ffffff;
+}
+
+.main-text{
+ margin-top: 2rem;
+ font-size: 18px;
+}
+
+.main-text_1:first-line {
+ color: #ff0000;
+}
+
+.main-text_2:first-letter {
+ color: #ff0000;
+}
