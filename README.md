@@ -1,5 +1,5 @@
 # Хасаншин Рамис
-Здесь выполненные мои домашние работы по курсам [Курс Веб-разработчик 10.0 от Glo Academy](https://www.youtube.com/playlist?list=PL3LQJkGQtzc5G7wIQfVqBMEprmTKZIaXf)
+Здесь выполненные мною домашние работы по курсам [Курс Веб-разработчик 10.0 от Glo Academy](https://www.youtube.com/playlist?list=PL3LQJkGQtzc5G7wIQfVqBMEprmTKZIaXf), [БЕСПЛАТНЫЙ курс по верстке сайтов (Front End). Уроки HTML CSS JS // Фрилансер по жизни](https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr)
 
 [ПРОЕКТНАЯ РАБОТА](https://github.com/KhasanshinRamis/khasanshinramis.github.io/blob/master/ИГРА "ИГРА-РЕЛАКС")
 
