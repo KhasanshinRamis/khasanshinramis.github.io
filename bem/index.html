@@ -1,0 +1,206 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Методология БЭМ</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+
+		<div class="header" id="home">
+			<div class="header__body">
+				<img src="img/logo.png" alt="" class="header__logo">
+				<div class="header__title">Clear, smart, attractive design <br>
+					<span class="header__subtitle">for your app, logo, website</span>
+				</div>
+				<button class="header__btn btn">READ MORE</button>
+				<a href="#menu" class="header__link">V</a>
+			</div>
+		</div>
+
+	<div class="menu" id="menu">
+		<div class="menu__body">
+		 <a href="#home" class="menu__link">HOME</a>
+		 <a href="#about" class="menu__link">ABOUT US</a>
+		 <a href="#portfolio" class="menu__link">PORTFOLIO</a>
+		 <a href="#contact" class="menu__link">CONTACT</a>
+		</div>
+	</div>
+
+		<div class="about" id="about">
+			<div class="about__body">
+				<div class="about__header">
+					<div class="about__title title">ABOUT</div>
+					<div class="about__text">We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. 
+In our design process, we make sure to stay one step ahead of the latest trends, 
+never forgetting to abide by key web standards.</div>
+				</div>
+				<div class="about__row">
+					<div class="about__column">
+						<div class="item-about">
+							<div class="item-about__icon">
+								<img src="img/about/01.png" alt="" />
+							</div>
+							<div class="item-about__title">WEB</div>
+							<div class="item-about__text">We tend to deliver unique and functional design, through innovation and creativity.</div>
+						</div>
+					</div>
+					<div class="about__column">
+						<div class="item-about">
+							<div class="item-about__icon">
+								<img src="img/about/02.png" alt="" />
+							</div>
+							<div class="item-about__title">iOS AND ANDROID</div>
+							<div class="item-about__text">We seek to bring new businesses and customers closer together through valuable insights and proper targeting.</div>
+						</div>
+					</div>
+					<div class="about__column">
+						<div class="item-about">
+							<div class="item-about__icon">
+								<img src="img/about/03.png" alt="" />
+							</div>
+							<div class="item-about__title">MARKETING</div>
+							<div class="item-about__text">We’ll help you establish the right goals and build the right paths. Success depends on setting the right intention.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<div class="portfolio" id="portfolio">
+	<div class="portfolio__body">
+		<div class="portfolio__header">
+			<div class="portfolio__title title">PORTFOLIO</div>
+			<div class="portfolio__subtitle">
+				<a class="portfolio__subtitle-link"href="#">ALL</a>
+				<a class="portfolio__subtitle-link"href="#">WEB</a>
+				<a class="portfolio__subtitle-link"href="#">APPS</a>
+				<a class="portfolio__subtitle-link"href="#">OTHER</a>
+			</div>
+		</div>
+		<div class="portfolio__row">
+					<div class="portfolio__column">
+						<div class="item-portfolio">
+							<div class="item-portfolio__img">
+							</div>
+						</div>
+					</div>
+					<div class="portfolio__column">
+						<div class="item-portfolio">
+							<div class="item-portfolio__img">
+							</div>
+						</div>
+					</div>
+				</div>
+		<div class="portfolio__row">
+					<div class="portfolio__column">
+						<div class="item-portfolio">
+							<div class="item-portfolio__img">
+							</div>
+						</div>
+					</div>
+					<div class="portfolio__column">
+						<div class="item-portfolio">
+							<div class="item-portfolio__img">
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>
+	<button class="portfolio__btn btn">READ MORE</button>
+</div>
+
+<div class="partners">
+	<div class="partners__head">
+		<div class="partners__body">
+			<div class="partners__header">
+				<div class="partners__title">Our partners</div>
+			</div>
+			<div class="partners__row">
+				<div class="partners__column">
+					<div class="item-partners__icon"><img src="img/partners/01.png" alt=""></div>
+				</div>
+				<div class="partners__column">
+					<div class="item-partners__icon"><img src="img/partners/02.png" alt=""></div>
+				</div>
+				<div class="partners__column">
+					<div class="item-partners__icon"><img src="img/partners/03.png" alt=""></div>
+				</div>
+				<div class="partners__column">
+					<div class="item-partners__icon"><img src="img/partners/04.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contact" id="contact">
+<div class="contact__body">
+	
+	<div class="contact__header">
+		<div class="contact__title title">Contact</div>
+	</div>
+	
+	<div class="contact__row">
+		<div class="contact__column">
+			<div class="contact__form">
+				<form action="#">
+					<div class="contact__form__row">
+						<div class="contact__form__column">
+								<div class="contact__form_user">
+								<label for="username" >your name</label>
+								<input type="username">
+							</div>
+						</div>
+						<div class="contact__form__column">
+							<div class="contact__form_email">
+								<label for="email">your e-mail</label>
+								<input type="email">
+							</div>
+						</div>
+					</div>
+					<div class="contact__form_message">
+						<label for="text">message</label>
+						<textarea id="text"></textarea>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="contact__column">
+			<div class="contact__info">Have an idea for a project? Just looking to 
+			explore and see the possibilities?
+			I'm here to help. 
+			<span class="contact__info_author">Postma Elena</span>
+			<img src="img/sn.jpg" alt="" class="contact__info_img">
+			<span>e-mail: <a href="mailto:postma.elena@gmail.com">postma.elena@gmail.com</a></span></div>
+		</div>
+	</div>
+	<div class="contact__link">
+		<a href="#">send</a>
+	</div>
+</div>
+</div>
+
+<div class="footer">
+	<div class="footer__body">
+		<div class="footer__logo"><img src="img/footer_logo.png" alt=""></div>
+		<div class="footer__row">
+			<div class="footer__column">Home</div>
+			<div class="footer__column">Facebook</div>
+			<div class="footer__column">Linkedin</div>
+			<div class="footer__column">Contact</div>
+		</div>
+		<div class="footer__info">© 2015. All Rights Reserved </div>
+	</div>
+</div>
+
+	</body>
+</html>
