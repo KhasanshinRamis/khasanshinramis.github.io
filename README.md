@@ -12,7 +12,7 @@
 
 [Фон в квадрате](https://khasanshinramis.github.io/background_with_text/src/) -Красивый сайт с фоном и текстом.
 
-[Сайт-визитка](https://khasanshinramis.github.io/practice_1/) - Пример сайта-визитки.
+[Сайт-визитка](https://khasanshinramis.github.io/bem/) - Пример сайта-визитки.
 
 [Многостраничный сайт](https://khasanshinramis.github.io/multi-page_website/src/) -Пример многостраничного сайта.
 
