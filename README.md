@@ -3,7 +3,7 @@
 Здесь выполненные мною домашние работы по курсам [Курс Веб-разработчик 10.0 от Glo Academy](https://www.youtube.com/playlist?list=PL3LQJkGQtzc5G7wIQfVqBMEprmTKZIaXf), [БЕСПЛАТНЫЙ курс по верстке сайтов (Front End). Уроки HTML CSS JS // Фрилансер по жизни](https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr)
 
 
-[У вас шапка бургер](https://khasanshinramis.github.io/flex/) - Сайт с адаптивное меню бургером 
+[У вас шапка бургер](https://khasanshinramis.github.io/burger_menu/) - Сайт с адаптивное меню бургером 
 
 [FLEXBOX](https://khasanshinramis.github.io/flex/) - Первый опыт использования flexbox'a
 
