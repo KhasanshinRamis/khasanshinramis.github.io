@@ -1,0 +1,162 @@
+@import "nullstyle.scss";
+
+html, body {
+	height: 100%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 0px 10px;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #5e5373;
+		z-index: 2;
+	}
+	&__body {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		height: 80px;
+		align-items: center;
+	}
+	&__logo {
+		position: relative;
+		flex: 0 0 60px;
+		border-radius: 50%;
+		overflow: hidden;
+		z-index: 3;
+		img{
+			max-width: 100%;
+			display: block;
+		}
+	}
+	&__burger {
+
+	}
+	&__menu {}
+	&__list {
+		display: flex;
+		position: relative;
+		z-index: 2;
+		li {
+			margin-left: 20px;
+		}
+	}
+	&__link {
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 767px) {
+	body.lock{
+		overflow: hidden;
+	}
+	.header{
+		&__body{
+			height: 50px;
+		}
+		&__logo {
+			flex: 0 0 40px;
+		}
+		&__burger{
+				position: relative;
+				display: block;
+				width: 30px;
+				height: 20px;
+				z-index: 3;
+				&.active{
+					span {
+						transform: scale(0.0);
+					}
+					&:before{
+						transform: rotate(45deg);
+						top: 9px;
+					}
+					&:after{
+						transform: rotate(-45deg);
+						bottom: 9px;
+					}
+				}
+				span{
+					position: absolute;
+					background-color: #fff;
+					left: 0;
+					width: 100%;
+					height: 2px;
+					top: 9px;
+					transition: all 0.3s ease 0s;
+				}
+				&:before, 
+				&:after {
+					content: '';
+					background-color: #fff;
+					position: absolute;
+					width: 100%;
+					height: 2px;
+					left: 0;
+				}
+				&:before{
+					top: 0;
+				}
+				&:after{
+					bottom: 0;
+				}
+		}
+		&__menu {
+			position: fixed;
+			top: -100%;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			background-color: #18b5a4;
+			padding: 100px 10px 20px 10px;
+			transition: all 0.3s ease 0s;
+			&.active{
+				top: 0;
+			}
+		}
+		&__list {
+			display: block;
+			li{
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+
+.content {
+	padding-top: 100px;
+	&__text {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	p {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:767px){
+	.content{
+		padding-top: 60px;
+	}
+}
