@@ -1,7 +1,8 @@
 # Хасаншин Рамис
 
-Здесь выполненные мною домашние работы по курсам [Курс Веб-разработчик 10.0 от Glo Academy](https://www.youtube.com/playlist?list=PL3LQJkGQtzc5G7wIQfVqBMEprmTKZIaXf), [БЕСПЛАТНЫЙ курс по верстке сайтов (Front End). Уроки HTML CSS JS // Фрилансер по жизни](https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr)
+Здесь выполненные мною домашние работы по курсам [Курс Веб-разработчик 10.0 от Glo Academy](https://www.youtube.com/playlist?list=PL3LQJkGQtzc5G7wIQfVqBMEprmTKZIaXf), [БЕСПЛАТНЫЙ курс по верстке сайтов (Front End). Уроки HTML CSS JS // Фрилансер по жизни](https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr), а  также самостоятельная практика по вёрстке
 
+[Одностраничный сайт с вкусняшками](https://khasanshinramis.github.io/primeone/) - Адаптивный одностраничный сайт с меню бургером, гео-картой 
 
 [У вас шапка бургер](https://khasanshinramis.github.io/burger_menu/) - Сайт с адаптивное меню бургером 
 
