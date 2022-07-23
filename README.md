@@ -3,7 +3,7 @@
 Здесь выполненные мною домашние работы по курсам [Курс Веб-разработчик 10.0 от Glo Academy](https://www.youtube.com/playlist?list=PL3LQJkGQtzc5G7wIQfVqBMEprmTKZIaXf), [БЕСПЛАТНЫЙ курс по верстке сайтов (Front End). Уроки HTML CSS JS // Фрилансер по жизни](https://www.youtube.com/playlist?list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr), а  также самостоятельная практика по вёрстке
 
 
-[Одностраничный сайт о бизнесе](khasanshinramis.github.io/business_sketch/) - Адаптивный одностраничный сайт с меню бургером, гео-картой, написанный на чистом БЭМе с красивыми кнопками и ссылками при наведении 
+[Одностраничный сайт о бизнесе](https://khasanshinramis.github.io/business_sketch/) - Адаптивный одностраничный сайт с меню бургером, гео-картой, написанный на чистом БЭМе с красивыми кнопками и ссылками при наведении 
 
 [Одностраничный сайт с вкусняшками](https://khasanshinramis.github.io/primeone/) - Адаптивный одностраничный сайт с меню бургером, гео-картой 
 
