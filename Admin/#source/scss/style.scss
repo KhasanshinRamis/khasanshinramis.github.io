@@ -1,0 +1,298 @@
+//<МИКСИНЫ>================================================================================================
+@mixin anim($time, $delay){-webkit-transition: all $time ease $delay;-moz-transition: all $time ease $delay; -ms-transition: all $time ease $delay;-o-transition:
+    all $time ease $delay; transition:  all $time ease $delay;}
+@mixin anim_cubic($time, $delay){-webkit-transition:all $time cubic-bezier(0.68, -0.55, 0.265, 1.55) $delay;-moz-transition:all $time cubic-bezier(0.68,-0.55,0.265,
+    1.55) $delay; -ms-transition: all $time cubic-bezier (0.68, -0.55,0.265,1.55) $delay;-o-transition: all $time cubic-bezier(0.68,-0.55,0.265,1.55) $delay;
+    transition:all $time cubic-bezier(0.68, -0.55,0.265,1.55) $delay;}
+@mixin rotate($deg){-moz-transform: rotate($deg);-ms-transform: rotate($deg);-webkit-transform: rotate($deg);-o-transform: rotate($deg);transform: rotate($deg);}
+@mixin scale($num){-moz-transform: scale($num);-ms-transform: scale($num);-webkit-transform: scale($num);-o-transform: scale($num);transform: scale($num);}
+@mixin skew($num){-webkit-transform: » skewX($num) ;-moz-transform: -skewX($num) ; -ms-transform: - skewX($num) ; -o-transform: - skewX($num) ; transform: - skewX($num) ;}
+@mixin cnt($h){display: flex;flex-direction: column;height: - $h;text-align: center;align-items: stretch;justify-content: center;}
+@mixin tr($x, $y,$z){transform: translate3d($x, $y,$z);};
+@mixin flexbox(){display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;font-size: 0;}
+@mixin flexorder($val){-webkit-box-ordinal-group: $val;-moz-box-ordinal-group: $val;-ms-flex-order: $val;-webkit-order: $val; order: $val;}
+//</МИКСИНЫ>===============================================================================================
+
+//<ШРИФТЫ>=================================================================================================
+
+//<Подключаем шрифты>======================================================================================
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+//</Подключаем шрифты>=====================================================================================
+
+//<Шрифт по умолчанию>=====================================================================================
+$fontfamily:"Montserrat";
+//</Шрифт по умолчанию>====================================================================================
+
+//</ШРИФТЫ>================================================================================================
+
+//<ПЕРЕМЕННЫЕ>=============================================================================================
+$minwidth:320px;
+$mw:1170;
+$md1:$mw+12;
+$md2:992.98;
+$md3:767.98;
+$md4:479.98;
+//</ПЕРЕМЕННЫЕ>============================================================================================
+
+//<ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>=============================================================================
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html, body{height:100%; margin: 0;padding: 0;min-width: $minwidth;position: relative;width: 100%;color: #000;}
+body{font-size:100%;line-height:1;font-size:14px;font-family: $fontfamily;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    &.lock{
+        overflow: hidden;
+        @media (max-width: $md3+px) {
+            width: 100%;
+            position: fixed;
+            overflow: hidden;
+        }
+    }
+}
+input,button,textarea{font-family: $fontfamily;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+//</ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===========================================================================
+
+//<ОБОЛОЧКА>===============================================================================================
+.wrapper{width: 100%; min-height: 100%; overflow: hidden;
+    &.loaded{}
+}
+//</ОБОЛОЧКА>==============================================================================================
+
+//<ОСНОВНАЯ СЕТКА>=========================================================================================
+.container{max-width:$mw+px;margin: 0 auto;width: 100%;
+    @media (max-width:$md1+px){max-width: 970px;}
+    @media (max-width:$md2+px){max-width: 750px;}
+    @media (max-width:$md3+px){max-width: none;padding: 0 10px;}
+}
+//</ОСНОВНАЯ СЕТКА>========================================================================================
+
+
+
+
+//<ШАПКА САЙТА>============================================================================================
+
+
+.header {
+    background-color: #649991;
+    padding: 20px 0px;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__column {
+        padding: 0 60px 0 60px;
+        display: flex;
+        align-items: center;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        color: #55483f;
+        font-weight: 700;
+        &:before{
+            padding-right: 10px;
+            content: url("../img/header.png");
+        
+        }
+    }
+    &__btn{
+        border-radius:15px;
+        min-width: 175px;
+        font-size: 28px;
+        padding: 10px;
+        font-weight: 400;
+        color: #55483f;
+        background-color: #8aeede;
+    }
+}
+
+
+
+//</ШАПКА САЙТА>==========================================================================================
+
+
+//<ОСНОВНОЙ КОНТЕНТ САЙТА>================================================================================
+
+.main {
+    padding: 40px 0px 0px;
+    background-color: #8aeede;
+    &__row {}
+    &__column {}
+}
+
+
+.main-header {
+    &__title {
+        padding: 0px 0px 20px;
+        font-size: 26px;
+        color: #55483f;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+.block{
+    &__title{ 
+        text-align: center;
+        font-size: 18px;
+        color: #067663;
+        min-height: 96px;
+        padding: 20px 0px;
+        border: 0.5px solid #067663;
+    }
+    &__data{
+        text-align: center;
+        font-size: 16px;
+        color: #159983;
+        min-height: 96px;
+        padding: 20px 0px;
+        border: 0.5px solid #067663;
+    }
+}
+
+
+.worker {
+    padding: 0px 0px 40px;
+    &__header {}
+    &__row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.5px solid #067663;
+    }
+    &__fullname {
+        flex: 0 0 70%;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__data {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__total-salary {
+        flex: 0 0 30%;
+    }
+}
+
+//========================================================================================================
+
+.stat-day {
+    padding: 0px 0px 40px;
+    &__header {}
+    &__row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.5px solid #067663;
+    }
+    &__fullname {
+        flex: 0 0 40%;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__data {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__arrival-time {
+        flex: 0 0 15%;
+    }
+    &__departure-time {
+        flex: 0 0 15%;
+    }
+    &__lunch-time {
+        flex: 0 0 15%;
+    }
+    &__all-time {
+        flex: 0 0 15%;
+    }
+}
+
+//========================================================================================================
+
+.stat-month {
+    padding: 0px 0px 40px;
+    &__header {}
+    &__row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.5px solid #067663;
+    }
+    &__fullname {
+        flex: 0 0 50%;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__data {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__all-time {
+        flex: 0 0 25%;
+    }
+    &__total-salary {
+        flex: 0 0 25%;
+    }
+}
+
+
+
+
+
+//========================================================================================================
+
+
+//========================================================================================================
+
+//========================================================================================================
+
+
+
+//</ОСНОВНОЙ КОНТЕНТ САЙТА>===============================================================================
+
+
+//<ПОДВАЛ САЙТА>==========================================================================================
+
+.footer{
+    background-color: #649991;
+    padding: 20px 0px;
+    &__title {
+        text-align: center;
+        font-size: 26px;
+        color: #55483f;
+        font-weight: 700;
+        padding: 0px 0px 5px;
+    }
+    &__subtitle{
+        text-align: center;
+        font-size: 22px;
+        color: #55483f;
+        font-weight: 400;
+    }
+}
+//</ПОДВАЛ САЙТА>=========================================================================================
