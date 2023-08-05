@@ -1,0 +1,24 @@
+.advantage {
+	display: grid;
+	grid-template-columns: 50px 1fr;
+	gap: 10px 40px;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+
+.advantage svg g {
+	width: 24px;
+	height: 24px;
+	z-index: 99;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.vline {
+	border-left: 1px solid #D2D2D2;
+	margin-left: 25px;
+	height: 100%;
+}

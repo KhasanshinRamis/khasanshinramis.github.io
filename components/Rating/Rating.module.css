@@ -1,0 +1,30 @@
+.filled svg {
+	fill: var(--primary);
+	transition: all 0.2s ease-in-out;
+}
+
+
+.star svg{
+	margin-right: 5px;
+}
+
+
+.editable {
+	cursor: pointer;
+}
+
+.ratingWrapper {
+	position: relative;
+}
+
+
+.error svg {
+	fill: firebrick;
+}
+
+.errorMessage {
+	position: absolute;
+	bottom: -22px;
+	left: 2px;
+	color: var(--red);
+}
